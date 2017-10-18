@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-newrelic",
+  "version": "0.1.0",
+  "description": "Node newrelic API for node-red",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petitgen/node-red-contrib-newrelic.git"
+  },
+  "keywords": [
+    "Node-RED",
+    "nodes",
+    "newrelic",
+    "flow"
+  ],
+  "author": "Sebastien MATHIEU <sebastien.mathieu.82@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petitgen/node-red-contrib-newrelic/issues"
+  },
+  "homepage": "https://github.com/petitgen/node-red-contrib-newrelic#readme",
+  "dependencies": {
+    "newrelic-api-client": "^0.1.1"
+  },
+  "node-red" : {
+    "nodes": {
+        "newrelic": "newrelic.js"
+    }
+  }
+}
