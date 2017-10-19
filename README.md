@@ -1,2 +1,2 @@
-# node-red-contrib-anydo
-Node AnyDo API for node-red
+# node-red-contrib-newrelic
+Node NewRelic API for node-red
